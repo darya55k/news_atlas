@@ -1,0 +1,44 @@
+
+.peoples_info:before {
+    background-image: url(/static/img/nganasany_uzor_h.png);
+    left: 0;
+    bottom: 0;
+    height: 24px;
+    width: 100%;
+}
+.peoples_info:after {
+    background-image: url(/static/img/nganasany_uzor_v.png);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 24px;
+}
+.peoples_blocks:before {
+    background-image: url(/static/img/nganasany_uzor_h.png);
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 100%;
+}
+.peoples_blocks:after {
+    background-image: url(/static/img/nganasany_uzor_v.png);
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 24px;
+}
+.languages_info:before {
+    background-image: url(/static/img/nganasany_uzor_h.png);
+    left: 0;
+    bottom: 0;
+    height: 24px;
+    width: 100%;
+}
+.languages_info:after {
+    background-image: url(/static/img/nganasany_uzor_v.png);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 24px;
+}
+
