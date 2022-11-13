@@ -1,5 +1,9 @@
-body {
-    min-width: 450px;
+.page {
+    margin: 0 auto;
+    /* max-width: 1280px; */
+    /* min-width: 320px; */
+    overflow-x: hidden;
+    min-width: 320px;
 }
 
 .content {
@@ -17,6 +21,7 @@ body {
     margin: 0 auto;
     padding-top: 36px;
 }
+
 
 .cards__info {
     border-radius: 10px;
@@ -92,4 +97,14 @@ body {
 
 .cards__data {
     padding: 17px 0;
+}
+
+@media screen and (max-width: 450px) {
+    .cards {
+        grid-template-columns: repeat(auto-fill, 300px);
+    }
+
+    .cards__photo {
+        height: 210px;
+    }
 }
