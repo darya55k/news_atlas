@@ -117,6 +117,6 @@
     }
 
     .cards__photo {
-        height: auto;
+        height: 200px;
     }
 }
