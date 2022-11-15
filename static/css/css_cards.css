@@ -15,7 +15,7 @@
     max-width: 100%;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 400px);
+    grid-template-columns: repeat(auto-fill, 375px);
     justify-content: center;
     gap: 40px;
     margin: 0 auto;
@@ -24,10 +24,12 @@
 
 
 .cards__info {
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
 
     justify-content: space-between;
-    align-items: center;
+
     max-width: 473px;
     padding-top: 25px;
     padding-left: 21px;
@@ -58,14 +60,24 @@
     width: 100%;
     border-radius: 40px;
     cursor: pointer;
+    object-fit: contain;
 }
 
 .cards__text {
+
     margin: 0;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
     line-height: 25px;
+    padding-top: 30px;
+    padding-left: 21px;
+    padding-right: 21px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
     /* text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden; */
@@ -78,25 +90,25 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    min-height: 100px;
 
 }
 
-.cards__button {
-    /* position: absolute;
-    bottom: 0; */
-    padding-bottom: 31px;
 
-    padding-left: 21px;
-}
 
-.btn_inline {
+.btn_style {
     justify-content: flex-end;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    padding-top: 21px;
 }
 
 .cards__data {
-    padding: 17px 0;
+    padding-bottom: 17px;
+}
+
+.cards__tag {
+    padding-top: 20px;
 }
 
 @media screen and (max-width: 450px) {
